@@ -1,0 +1,20 @@
+{
+  "name": "exercicioaula7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts",
+    "build": "tsc"
+  },
+  "author": "Pablo",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.17"
+  }
+}
